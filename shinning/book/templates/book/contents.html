@@ -1,0 +1,8 @@
+<h2> Shining </h2>
+<ul>
+    {% for chapter in book %}
+    <li>
+        <a href="/chapter/{{ forloop.counter }}">Chapter {{ forloop.counter }}</a>
+    </li>
+    {% endfor %}
+</ul>
